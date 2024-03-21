@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task createJar(type: Jar) {
+    archiveFileName = 'main.jar'
+    from sourceSets.main.output
+}
+
+task copyJar(type: Copy, dependsOn: createJar) {
+    from createJar.archiveFile
+    into 'docker'
+}
+
+task buildDockerImage(type: Exec) {
+    workingDir 'dock'
+    commandLine 'docker', 'build', '-t', 'main', '.'
+}
+
+task dockerRun(type: Exec) {
+    commandLine 'docker', 'run', '-d', '-p', '8080:8080', 'main'
+}
