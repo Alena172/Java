@@ -1,0 +1,6 @@
+org/example/Task12Application.java
+ org.example.Task12Application
+org/example/components/Converter.java
+ org.example.components.Converter
+org/example/components/FileReader.java
+ org.example.components.FileReader
