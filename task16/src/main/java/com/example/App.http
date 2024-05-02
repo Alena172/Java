@@ -1,0 +1,17 @@
+GET http://localhost:8080/groups/add?groupName=IKBO-20-22.
+
+###
+
+GET http://localhost:8080/groups
+
+###
+
+GET http://localhost:8080/students/add?firstName=Alena&lastName=Yakovleva&groupId=2
+
+###
+
+GET http://localhost:8080/students
+
+###
+
+
