@@ -1,0 +1,50 @@
+00:56:35.791 [main] INFO  com.example.Application - Starting Application using Java 21 with PID 7100 (C:\Users\Alena\IdeaProjects\task23\build\classes\java\main started by Alena in C:\Users\Alena\IdeaProjects\task23)
+ 00:56:35.802 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 00:56:36.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:56:36.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+ 00:56:38.474 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 00:56:38.487 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 00:56:38.489 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 00:56:38.489 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 00:56:38.552 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 00:56:38.553 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2675 ms
+ 00:56:38.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:56:39.061 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cd2cb2
+ 00:56:39.063 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:56:39.157 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:56:39.217 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:56:39.470 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:56:40.947 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:56:40.997 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+ 00:56:40.997 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - отношение "user_role" не существует, пропускается
+ 00:56:41.007 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+ 00:56:41.007 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - таблица "user_role" не существует, пропускается
+ 00:56:41.008 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+ 00:56:41.008 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - таблица "usr" не существует, пропускается
+ 00:56:41.009 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+ 00:56:41.009 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - последовательность "usr_seq" не существует, пропускается
+ 00:56:42.032 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+ 00:56:42.466 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:56:42.622 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@528070fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3df79197, org.springframework.security.web.context.SecurityContextHolderFilter@626e5554, org.springframework.security.web.header.HeaderWriterFilter@53d3d604, org.springframework.web.filter.CorsFilter@53741683, org.springframework.security.web.csrf.CsrfFilter@6eacf3be, org.springframework.security.web.authentication.logout.LogoutFilter@6e212f38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e79b0fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47897093, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53ec379a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36134f3, org.springframework.security.web.access.ExceptionTranslationFilter@1464a177, org.springframework.security.web.access.intercept.AuthorizationFilter@6dd8ac29]
+ 00:56:43.239 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a43fee5b-5a1f-48de-a4e9-78e29f86c040
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+ 00:56:43.323 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 00:56:43.341 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 00:56:43.354 [main] INFO  com.example.Application - Started Application in 7.99 seconds (process running for 9.127)
+ 00:56:43.571 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 00:56:43.571 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 00:56:43.572 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 00:57:11.939 [http-nio-8080-exec-5] INFO  com.example.RegistrationController - Сайт регистрации посещен
+ 00:58:22.490 [http-nio-8080-exec-10] INFO  com.example.RegistrationController - Пост
+ 00:58:22.704 [http-nio-8080-exec-10] INFO  com.example.RegistrationController - Проверка существования null
+ 00:58:22.704 [http-nio-8080-exec-10] INFO  com.example.RegistrationController - Не существует
+ 00:58:22.704 [http-nio-8080-exec-10] INFO  com.example.RegistrationController - Роль установлена
+ 00:58:22.938 [http-nio-8080-exec-10] INFO  com.example.RegistrationController - Добавлен
+ 00:58:57.001 [http-nio-8080-exec-4] INFO  com.example.SecurityConfig - Cookie saved
+ 01:05:45.917 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 01:05:45.924 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
