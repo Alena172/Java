@@ -1,0 +1,32 @@
+00:41:35.668 [main] INFO  com.example.Application - Starting Application using Java 21 with PID 17708 (C:\Users\Alena\IdeaProjects\task21\build\classes\java\main started by Alena in C:\Users\Alena\IdeaProjects\task21)
+ 00:41:35.682 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 00:41:36.512 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:41:36.562 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+ 00:41:37.919 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 00:41:37.927 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 00:41:37.934 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 00:41:37.934 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 00:41:38.005 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 00:41:38.005 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2227 ms
+ 00:41:38.378 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:41:38.584 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@156cfa20
+ 00:41:38.584 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:41:38.690 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:41:38.755 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:41:38.954 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:41:40.355 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:41:42.185 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:41:42.274 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 00:41:42.307 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 00:41:42.330 [main] INFO  com.example.Application - Started Application in 8.086 seconds (process running for 9.064)
+ 00:41:42.985 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 00:41:42.985 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 00:41:42.991 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 00:41:56.392 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Creating group: IKBO-20-22
+ 00:41:56.470 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group created successfully: IKBO-20-22
+ 00:41:58.895 [http-nio-8080-exec-1] INFO  com.example.EmailService - Email sent successfully to: pusto446@gmail.com
+ 00:41:58.896 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.EmailService.sendEmail(String,String,String) executed in  2424 ms
+ 00:41:58.897 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.GroupServiceImpl.createGroup(Group) executed in  2505 ms
+ 00:45:43.638 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:45:43.645 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
