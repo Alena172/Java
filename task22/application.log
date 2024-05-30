@@ -1,0 +1,43 @@
+00:46:46.270 [main] INFO  com.example.Application - Starting Application using Java 21 with PID 4632 (C:\Users\Alena\IdeaProjects\task22\build\classes\java\main started by Alena in C:\Users\Alena\IdeaProjects\task22)
+ 00:46:46.283 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 00:46:47.123 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:46:47.183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+ 00:46:48.663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 00:46:48.676 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 00:46:48.679 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 00:46:48.679 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 00:46:48.753 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 00:46:48.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2394 ms
+ 00:46:49.094 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:46:49.322 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34ab26a
+ 00:46:49.325 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:46:49.432 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:46:49.513 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:46:49.704 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:46:51.102 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:46:53.131 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:46:53.254 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 00:46:53.280 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 00:46:53.295 [main] INFO  com.example.Application - Started Application in 7.537 seconds (process running for 8.566)
+ 00:46:53.678 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 00:46:53.679 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 00:46:53.681 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 00:46:59.803 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Creating group: IKBO-20-21
+ 00:46:59.866 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group created successfully: IKBO-20-21
+ 00:47:01.314 [http-nio-8080-exec-1] INFO  com.example.EmailService - Email sent successfully to: pusto446@gmail.com
+ 00:47:01.317 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.EmailService.sendEmail(String,String,String) executed in  1447 ms
+ 00:47:01.317 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.GroupServiceImpl.createGroup(Group) executed in  1514 ms
+ 00:47:06.368 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Creating group: IKBO-20-22
+ 00:47:06.370 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Group created successfully: IKBO-20-22
+ 00:47:08.871 [http-nio-8080-exec-2] INFO  com.example.EmailService - Email sent successfully to: pusto446@gmail.com
+ 00:47:08.871 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.EmailService.sendEmail(String,String,String) executed in  2501 ms
+ 00:47:08.871 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.GroupServiceImpl.createGroup(Group) executed in  2503 ms
+ 00:49:46.628 [RMI TCP Connection(9)-192.168.56.1] INFO  com.example.DataExportService - Starting data export process.
+ 00:49:46.790 [RMI TCP Connection(9)-192.168.56.1] INFO  com.example.DataExportService - Data exported for group: IKBO-20-21
+ 00:49:46.791 [RMI TCP Connection(9)-192.168.56.1] INFO  com.example.DataExportService - Data exported for group: IKBO-20-22
+ 00:49:46.792 [RMI TCP Connection(9)-192.168.56.1] INFO  com.example.DataExportService - Data export process completed.
+ 00:49:46.792 [RMI TCP Connection(9)-192.168.56.1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.DataExportService.exportData() executed in  165 ms
+ 00:49:46.792 [RMI TCP Connection(9)-192.168.56.1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.JmxDataExportService.triggerDataExport() executed in  165 ms
+ 00:55:32.305 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:55:32.327 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
