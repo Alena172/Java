@@ -1,0 +1,33 @@
+GET http://localhost:8080/groups/add?groupName=IKBO-20-22
+
+###
+
+GET http://localhost:8080/groups
+
+###
+
+GET http://localhost:8080/groups/filter?groupName=IKBO-20-22
+
+###
+
+GET http://localhost:8080/students/add?firstName=Alena&lastName=Yakovleva&groupId=1
+
+###
+
+GET http://localhost:8080/students/add?firstName=Alena&lastName=Kovaleva&groupId=1
+
+###
+
+GET http://localhost:8080/students/add?firstName=Julia&lastName=Kovaleva&groupId=1
+
+###
+
+GET http://localhost:8080/students/filter?firstName=Alena
+
+###
+
+GET http://localhost:8080/students
+
+###
+
+

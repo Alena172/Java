@@ -1,0 +1,47 @@
+00:37:48.722 [main] INFO  com.example.Application - Starting Application using Java 21 with PID 22144 (C:\Users\Alena\IdeaProjects\task20\build\classes\java\main started by Alena in C:\Users\Alena\IdeaProjects\task20)
+ 00:37:48.732 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 00:37:49.434 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:37:49.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+ 00:37:50.737 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 00:37:50.750 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 00:37:50.752 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 00:37:50.752 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 00:37:50.824 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 00:37:50.824 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2012 ms
+ 00:37:51.113 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:37:51.338 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30ffb2a6
+ 00:37:51.342 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:37:51.488 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:37:51.599 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:37:51.840 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:37:53.223 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:37:55.131 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:37:55.239 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 00:37:55.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 00:37:55.287 [main] INFO  com.example.Application - Started Application in 7.028 seconds (process running for 8.083)
+ 00:37:55.567 [RMI TCP Connection(1)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 00:37:55.568 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 00:37:55.570 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 00:38:10.455 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Creating group: IKBO-20-22
+ 00:38:10.536 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group created successfully: IKBO-20-22
+ 00:38:10.538 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - void com.example.GroupServiceImpl.createGroup(Group) executed in  82 ms
+ 00:38:10.627 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Retrieving all groups
+ 00:38:10.786 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in  159 ms
+ 00:38:10.888 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Filtering groups by name: IKBO-20-22
+ 00:38:10.922 [http-nio-8080-exec-3] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.filterGroupsByName(String) executed in  34 ms
+ 00:38:10.979 [http-nio-8080-exec-4] INFO  com.example.StudentServiceImpl - Adding student with firstName: Alena, lastName: Yakovleva, groupId: 1
+ 00:38:10.998 [http-nio-8080-exec-4] INFO  com.example.StudentServiceImpl - Student Alena successfully created!
+ 00:38:10.998 [http-nio-8080-exec-4] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in  19 ms
+ 00:38:11.046 [http-nio-8080-exec-5] INFO  com.example.StudentServiceImpl - Adding student with firstName: Alena, lastName: Kovaleva, groupId: 1
+ 00:38:11.051 [http-nio-8080-exec-5] INFO  com.example.StudentServiceImpl - Student Alena successfully created!
+ 00:38:11.051 [http-nio-8080-exec-5] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in  5 ms
+ 00:38:11.099 [http-nio-8080-exec-6] INFO  com.example.StudentServiceImpl - Adding student with firstName: Julia, lastName: Kovaleva, groupId: 1
+ 00:38:11.103 [http-nio-8080-exec-6] INFO  com.example.StudentServiceImpl - Student Julia successfully created!
+ 00:38:11.104 [http-nio-8080-exec-6] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in  5 ms
+ 00:38:11.165 [http-nio-8080-exec-7] INFO  com.example.StudentServiceImpl - Filtering students by criteria: {firstName=Alena}
+ 00:38:11.174 [http-nio-8080-exec-7] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.filterStudentsByCriteria(Map) executed in  9 ms
+ 00:38:11.223 [http-nio-8080-exec-8] INFO  com.example.StudentServiceImpl - Retrieving all students
+ 00:38:11.228 [http-nio-8080-exec-8] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in  4 ms
+ 00:40:47.181 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:40:47.191 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
