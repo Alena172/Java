@@ -1,0 +1,4 @@
+Group Name: TestGroup
+Students:
+ - John Doe
+ - Jane Doe
