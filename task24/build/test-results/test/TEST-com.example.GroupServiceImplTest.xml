@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.GroupServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-05-30T22:14:32" hostname="DESKTOP-3V2CUMC" time="0.145">
+  <properties/>
+  <testcase name="testDeleteGroup()" classname="com.example.GroupServiceImplTest" time="0.074"/>
+  <testcase name="testCreateGroup()" classname="com.example.GroupServiceImplTest" time="0.02"/>
+  <testcase name="testFilterGroupsByName()" classname="com.example.GroupServiceImplTest" time="0.029"/>
+  <testcase name="testGetAllGroups()" classname="com.example.GroupServiceImplTest" time="0.009"/>
+  <system-out><![CDATA[?[34mINFO ?[0;39m - Deleting group with id: 1
+?[34mINFO ?[0;39m - Creating group: Test Group
+?[34mINFO ?[0;39m - Group created successfully: Test Group
+?[34mINFO ?[0;39m - Filtering groups by name: Test Group
+?[34mINFO ?[0;39m - Retrieving all groups
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

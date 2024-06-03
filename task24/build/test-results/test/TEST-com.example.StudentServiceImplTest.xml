@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.StudentServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-30T22:14:32" hostname="DESKTOP-3V2CUMC" time="0.273">
+  <properties/>
+  <testcase name="testAddStudent()" classname="com.example.StudentServiceImplTest" time="0.262"/>
+  <testcase name="testGetAllStudents()" classname="com.example.StudentServiceImplTest" time="0.008"/>
+  <system-out><![CDATA[?[34mINFO ?[0;39m - Adding student with firstName: John, lastName: Doe, groupId: 1
+?[34mINFO ?[0;39m - Student John successfully created!
+?[34mINFO ?[0;39m - Retrieving all students
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.StudentServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-30T22:14:33" hostname="DESKTOP-3V2CUMC" time="0.036">
+  <properties/>
+  <testcase name="deleteStudentTest()" classname="com.example.StudentServiceTest" time="0.034"/>
+  <testcase name="filterStudentsByCriteriaTest()" classname="com.example.StudentServiceTest" time="0.001"/>
+  <testcase name="getAllStudentsTest()" classname="com.example.StudentServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

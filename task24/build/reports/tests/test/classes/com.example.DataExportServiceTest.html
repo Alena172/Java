@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DataExportServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DataExportServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.html">com.example</a> &gt; DataExportServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.993s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">exportData_ExportsDataForAllGroups()</td>
+<td class="success">2.993s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>01:14:32,327 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [STDOUT]
+01:14:32,376 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+01:14:32,384 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:14:32,412 |-INFO in ch.qos.logback.core.ConsoleAppender[STDOUT] - Enabling JANSI AnsiPrintStream for the console.
+01:14:32,413 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - Failed to create AnsiPrintStream. Falling back on the default stream. java.lang.ClassNotFoundException: org.fusesource.jansi.AnsiConsole
+	at java.lang.ClassNotFoundException: org.fusesource.jansi.AnsiConsole
+	at 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at 	at ch.qos.logback.core.ConsoleAppender.wrapWithJansi(ConsoleAppender.java:101)
+	at 	at ch.qos.logback.core.ConsoleAppender.start(ConsoleAppender.java:91)
+	at 	at ch.qos.logback.core.model.processor.AppenderModelHandler.postHandle(AppenderModelHandler.java:84)
+	at 	at ch.qos.logback.core.model.processor.DefaultProcessor.secondPhaseTraverse(DefaultProcessor.java:257)
+	at 	at ch.qos.logback.core.model.processor.DefaultProcessor.secondPhaseTraverse(DefaultProcessor.java:253)
+	at 	at ch.qos.logback.core.model.processor.DefaultProcessor.traversalLoop(DefaultProcessor.java:90)
+	at 	at ch.qos.logback.core.model.processor.DefaultProcessor.process(DefaultProcessor.java:106)
+	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.processModel(GenericXMLConfigurator.java:208)
+	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:170)
+	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:122)
+	at 	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:65)
+	at 	at ch.qos.logback.classic.util.DefaultJoranConfigurator.configureByResource(DefaultJoranConfigurator.java:68)
+	at 	at ch.qos.logback.classic.util.DefaultJoranConfigurator.configure(DefaultJoranConfigurator.java:35)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.invokeConfigure(ContextInitializer.java:128)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:103)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:66)
+	at 	at ch.qos.logback.classic.spi.LogbackServiceProvider.initializeLoggerContext(LogbackServiceProvider.java:52)
+	at 	at ch.qos.logback.classic.spi.LogbackServiceProvider.initialize(LogbackServiceProvider.java:41)
+	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:196)
+	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:183)
+	at 	at org.slf4j.LoggerFactory.getProvider(LoggerFactory.java:486)
+	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:472)
+	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:421)
+	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:447)
+	at 	at com.example.DataExportService.&lt;clinit&gt;(DataExportService.java:17)
+	at 	at java.base/jdk.internal.misc.Unsafe.allocateInstance(Native Method)
+	at 	at java.base/java.lang.invoke.DirectMethodHandle.allocateInstance(DirectMethodHandle.java:520)
+	at 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at 	at org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher$ByteBuddy$J8ADOWPe.invokeWithArguments(Unknown Source)
+	at 	at org.mockito.internal.util.reflection.InstrumentationMemberAccessor.lambda$newInstance$0(InstrumentationMemberAccessor.java:199)
+	at 	at org.mockito.internal.util.reflection.InstrumentationMemberAccessor.newInstance(InstrumentationMemberAccessor.java:188)
+	at 	at org.mockito.internal.util.reflection.InstrumentationMemberAccessor.newInstance(InstrumentationMemberAccessor.java:161)
+	at 	at org.mockito.internal.util.reflection.ModuleMemberAccessor.newInstance(ModuleMemberAccessor.java:42)
+	at 	at org.mockito.internal.util.reflection.FieldInitializer$NoArgConstructorInstantiator.instantiate(FieldInitializer.java:203)
+	at 	at org.mockito.internal.util.reflection.FieldInitializer.acquireFieldInstance(FieldInitializer.java:146)
+	at 	at org.mockito.internal.util.reflection.FieldInitializer.initialize(FieldInitializer.java:91)
+	at 	at org.mockito.internal.configuration.injection.PropertyAndSetterInjection.initializeInjectMocksField(PropertyAndSetterInjection.java:93)
+	at 	at org.mockito.internal.configuration.injection.PropertyAndSetterInjection.processInjection(PropertyAndSetterInjection.java:73)
+	at 	at org.mockito.internal.configuration.injection.MockInjectionStrategy.process(MockInjectionStrategy.java:68)
+	at 	at org.mockito.internal.configuration.injection.MockInjectionStrategy.relayProcessToNextStrategy(MockInjectionStrategy.java:91)
+	at 	at org.mockito.internal.configuration.injection.MockInjectionStrategy.process(MockInjectionStrategy.java:71)
+	at 	at org.mockito.internal.configuration.injection.MockInjectionStrategy.relayProcessToNextStrategy(MockInjectionStrategy.java:91)
+	at 	at org.mockito.internal.configuration.injection.MockInjectionStrategy.process(MockInjectionStrategy.java:71)
+	at 	at org.mockito.internal.configuration.injection.MockInjection$OngoingMockInjection.apply(MockInjection.java:88)
+	at 	at org.mockito.internal.configuration.DefaultInjectionEngine.injectMocksOnFields(DefaultInjectionEngine.java:26)
+	at 	at org.mockito.internal.configuration.InjectingAnnotationEngine.injectCloseableMocks(InjectingAnnotationEngine.java:107)
+	at 	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:48)
+	at 	at org.mockito.MockitoAnnotations.openMocks(MockitoAnnotations.java:81)
+	at 	at org.mockito.internal.framework.DefaultMockitoSession.&lt;init&gt;(DefaultMockitoSession.java:43)
+	at 	at org.mockito.internal.session.DefaultMockitoSessionBuilder.startMocking(DefaultMockitoSessionBuilder.java:83)
+	at 	at org.mockito.junit.jupiter.MockitoExtension.beforeEach(MockitoExtension.java:159)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachCallbacks$2(TestMethodTestDescriptor.java:163)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:199)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:199)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachCallbacks(TestMethodTestDescriptor.java:162)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:129)
+	at 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at 	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at 	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at 	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at 	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at 	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+01:14:32,424 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+01:14:32,424 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+01:14:32,442 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@768669591 - setting totalSizeCap to 3 GB
+01:14:32,458 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@768669591 - Will use gz compression
+01:14:32,460 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@768669591 - Will use the pattern application.%d{yyyy-MMdd} for the active file
+01:14:32,468 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MMdd' from file name pattern 'application.%d{yyyy-MMdd}.gz'.
+01:14:32,468 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+01:14:32,469 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2024-05-30T22:07:30.205Z
+01:14:32,473 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:14:32,489 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: application.log
+01:14:32,490 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [application.log]
+01:14:32,493 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+01:14:32,494 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [STDOUT] to Logger[ROOT]
+01:14:32,495 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+01:14:32,496 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@25673087 - End of configuration.
+01:14:32,497 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2c88a3e8 - Registering current configuration as safe fallback point
+01:14:32,497 |-INFO in ch.qos.logback.classic.util.ContextInitializer@68ac9ec5 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 630 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+?[34mINFO ?[0;39m - Starting data export process.
+?[34mINFO ?[0;39m - Data exported for group: TestGroup
+?[34mINFO ?[0;39m - Data export process completed.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 31 мая 2024 г., 01:14:33</p>
+</div>
+</div>
+</body>
+</html>

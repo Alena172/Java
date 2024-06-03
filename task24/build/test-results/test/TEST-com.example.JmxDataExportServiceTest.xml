@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.JmxDataExportServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-30T22:14:32" hostname="DESKTOP-3V2CUMC" time="0.034">
+  <properties/>
+  <testcase name="testTriggerDataExport()" classname="com.example.JmxDataExportServiceTest" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
